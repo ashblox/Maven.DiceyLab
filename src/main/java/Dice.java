@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Dice {
 
     private int numberOfDies;
@@ -24,14 +22,14 @@ public class Dice {
         this.numberOfDies = numberOfDies;
     }
 
-    public ArrayList<Integer> getValuesOfDice() {
-        ArrayList<Integer> valuesOfDice = new ArrayList<Integer>();
-        for (int i = 0; i < numberOfDies; i++) {
-            int value = (int)(Math.random()*6) + 1;
-            valuesOfDice.add(value);
-        }
-        return valuesOfDice;
-    }
+//    public ArrayList<Integer> getValuesOfDice() {
+//        ArrayList<Integer> valuesOfDice = new ArrayList<Integer>();
+//        for (int i = 0; i < numberOfDies; i++) {
+//            int value = (int)(Math.random()*6) + 1;
+//            valuesOfDice.add(value);
+//        }
+//        return valuesOfDice;
+//    }
 }
 
 
